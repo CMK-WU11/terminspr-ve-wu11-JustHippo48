@@ -1,4 +1,5 @@
 import { serverFetch } from "@/lib/serverFetch"
+import Image from "next/image";
 
 export default async function Article() {
     
@@ -10,7 +11,7 @@ export default async function Article() {
         <article>
             {data.map((data) => (
                 <>
-                    <img src="" alt="" />
+                    <Image src={data.asset.url} alt="billeder af folk der danser" width="500" height="500"></Image>
                     <div>
                         <p>{data.name}</p>
                         <p>{data.minAge}-{data.maxAge} år</p>

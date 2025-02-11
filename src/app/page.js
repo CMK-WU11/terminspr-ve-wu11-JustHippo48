@@ -1,4 +1,5 @@
 import Article from "@/componments/Article";
+import "./style.css"
 
 
 export default function Home() {
@@ -7,7 +8,9 @@ export default function Home() {
   return (
     <>
       <main>
-        <Article></Article>
+        <div className="bo">
+          hej
+        </div>
       </main>
     </>
   );
