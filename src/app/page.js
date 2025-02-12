@@ -1,5 +1,5 @@
-import Article from "@/componments/Article";
-import "./style.css"
+import "../stylesheets/start.css"
+import Link from "next/link";
 
 
 export default function Home() {
@@ -8,8 +8,10 @@ export default function Home() {
   return (
     <>
       <main>
-        <div className="bo">
-          hej
+        <div className="main">
+          <Link href={"/akiviteter"}>
+            <button className="start-Button">Kom i gang</button>
+          </Link>
         </div>
       </main>
     </>

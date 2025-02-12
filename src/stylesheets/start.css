@@ -1,0 +1,30 @@
+:root {
+    /* farver */
+    --lyserød: #E1A1E9;
+    --lilla: #5E2E53;
+    --hvid: #EAEAEA;
+    --sort: #000000;
+
+    /* skrifttyper */
+    
+
+}
+
+/* Første side, start side */
+
+.main {
+    background-image: url("../images/splash-image.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.start-Button {
+    background-color: var(--lilla);
+    width: 10rem;
+    height: 5rem;
+}
+
+/* ---- */

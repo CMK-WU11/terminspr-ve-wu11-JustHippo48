@@ -9,7 +9,7 @@ export default function Error({error, reset}) {
     
     return(
         <>
-            <h1>Ups, der gik noget galt. Prøv igen</h1>
+            <p>Ups, der gik noget galt. Prøv igen</p>
             <button onClick={() => reset()}>Prøv igen</button>
         </>
     )
