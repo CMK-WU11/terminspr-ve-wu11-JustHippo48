@@ -1,0 +1,15 @@
+:root {
+    /* farver */
+    --lyserød: #E1A1E9;
+    --lilla: #5E2E53;
+    --hvid: #EAEAEA;
+    --sort: #000000;
+
+    /* skrifttyper */
+    
+
+}
+
+* {
+    font-size: 18px;
+}

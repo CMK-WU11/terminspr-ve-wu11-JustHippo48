@@ -11,7 +11,7 @@ export default async function Article() {
         <article>
             {data.map((data) => (
                 <>
-                    <Image src={data.asset.url} alt="billeder af folk der danser" width="500" height="500"></Image>
+                    <Image src={data.asset.url} key={data.asset.id} alt="billeder af folk der danser" width="500" height="500"></Image>
                     <div>
                         <p>{data.name}</p>
                         <p>{data.minAge}-{data.maxAge} år</p>
