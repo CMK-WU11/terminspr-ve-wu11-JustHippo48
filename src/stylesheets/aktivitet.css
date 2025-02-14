@@ -13,3 +13,42 @@
 * {
     font-size: 18px;
 }
+
+.aktivitet-main {
+    background-color: var(--lilla);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.aktivitet-billeder {
+    object-fit: contain;
+}
+
+.billeder-container {
+    height: 25rem;
+    position: relative;
+    top: 10rem;
+}
+
+.atikel {
+    margin: 2rem;
+}
+
+.pink-farve {
+    background-color: var(--lyserød);
+    inset: 0;
+    opacity: 50%;
+    /* position: absolute; */
+    height: 2rem;
+}
+
+.tekst-container {
+    z-index: 10;
+}
+
+.tekst-atikel {
+    z-index: 10;
+}

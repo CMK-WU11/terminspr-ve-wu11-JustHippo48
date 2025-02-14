@@ -16,3 +16,15 @@
 
 ## Images i map
 Denne er taget fra en gammel opgave, Din mægler 
+
+## Object fit
+Denne fandt jeg fra https://www.w3schools.com/css/css3_object-fit.asp
+da jeg havde glemt hvordan man gjorde det
+
+## CSS forsøget på at ligge teksten over billederne på aktivitet siden
+Jeg troret jeg havde styr på hvad jeg lavet, har taget inspiration af hvad jeg gjorde i min mægler opgaven. Men det gik ikke så godt.
+Jeg prøvet at google men kunne ikke finde noget der kunne hjælpe. Prøvet at bruge top, men alle de pinke div ligger oven på hinanden
+
+## Props
+Jeg tænkte jeg kunne bruge props til headeren tekst, da headeren er det samme på alle sider, teksten bare ændre sig.
+Jeg kunne ikke helt huske hvordan jeg bruger props, så jeg googlet og brugte denne siddes hjælp https://nextjs.org/learn/react-foundations/displaying-data-with-props

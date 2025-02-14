@@ -1,0 +1,23 @@
+:root {
+    /* farver */
+    --lyserød: #E1A1E9;
+    --lilla: #5E2E53;
+    --hvid: #EAEAEA;
+    --sort: #000000;
+
+    /* skrifttyper */
+    
+
+}
+
+header {
+    height: 4rem;
+    background-color: var(--lilla);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36;
+}
